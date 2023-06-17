@@ -1,0 +1,108 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+body{
+	font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	max-width: 1920px;
+	flex-direction: column;
+	overflow: hidden;
+
+.conteiner{
+	max-width: 1300px;
+	margin: 0px auto
+}
+
+// Файл верхнего блока
+@import "style_header.scss";
+
+
+
+.content {
+	flex: 1 1 auto;
+
+.title {
+	font-size: 40px;
+	color: #33b89d;
+	font-weight: 700;
+}
+
+.titl {
+	font-size: 30px;
+	color: #33b89d;
+
+}
+
+.tit {
+	font-size: 20px;
+	color: #000000;
+}
+
+.image{
+	margin-top: 100px;
+	height: 450px;
+  background: url('../img/college_glass.jpg') 0 100px/ 1920px 450px no-repeat fixed;
+}
+
+.standart {
+
+.standart_title {
+	padding: 30px 0 30px 0;
+	text-align: center;
+}
+.standart_box {
+	display: flex;
+	justify-content: space-between;
+.standart_image img{
+	border-radius: 10px;
+	height: 535px;
+	width: 800px;
+}
+.standart_line {
+	@import "style_standart_news_line.scss";
+}
+}
+.standart_data {
+	color: grey;
+	padding: 20px 0;
+}
+.standart_text {
+	padding-top: 20px;
+
+.text_texts {
+	padding-bottom: 20px;
+
+	p{
+	padding-bottom: 15px ;		
+	line-height: 25px;
+	text-align: justify;
+	font-size: 17px;
+}
+}
+}
+.standart_img {
+	display: flex;
+	justify-content: space-between;
+.img_imgs img{
+	height: 300px;
+	width: 400px;
+	border-radius: 10px;
+}
+}
+}
+
+
+
+
+
+// Файл нижнего блока
+@import "style_footer.scss";
+
+
+
+}
+
+}

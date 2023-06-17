@@ -1,0 +1,182 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+body{
+	font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	max-width: 1920px;
+	flex-direction: column;
+	overflow: hidden;
+
+.conteiner{
+	max-width: 1300px;
+	margin: 0px auto
+}
+
+// Файл верхнего блока
+@import "style_header.scss";
+
+
+
+.content {
+	flex: 1 1 auto;
+
+.title {
+	font-size: 40px;
+	color: #33b89d;
+	font-weight: 700;
+}
+
+.titl {
+	font-size: 30px;
+	color: #33b89d;
+
+}
+
+.tit {
+	font-size: 20px;
+	color: #000000;
+}
+
+.image{
+	margin-top: 100px;
+	height: 450px;
+  background: url('../img/student.jpg') 0 100px/ 1920px 350px no-repeat fixed;
+}
+
+
+
+.knowledge {
+	padding-top: 30px;		
+
+	background: #fafafa;
+.knowledge_row {
+.knowledge_title {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.knowledge_text {
+
+
+	& p{
+	text-align: left;
+	line-height: 30px;
+	}
+
+	& p:last-child{
+	text-align: left;
+	padding: 20px 0 0 0;	
+	}
+}
+
+.knowledge_language {
+	display: flex;
+	justify-content: space-between;
+	width: 1250px;
+	padding-top: 20px;
+.language_languages img{
+	width: 100px;
+	height: 100px;
+}
+}
+
+hr{
+	border: 2px solid #33b89d;
+	width: 1250px;	
+}
+
+
+.knowledge_tobe {
+.exposition_box {
+	text-align: center;
+.knowledge_tobe_title {
+
+	padding: 20px 0;
+}
+.knowledge_exposition {}
+}
+.knowledge_set {
+
+.knowledge_tet {
+	padding: 20px 0 20px 0;
+	display: flex;
+
+.knowledge_brick img{
+
+	width: 60px;
+	height: 60px;
+}
+.knowledge_block {
+	padding-left: 20px;		
+	line-height: 25px;
+.knowledge_bold {
+	font-size: 18px;
+	font-weight: 700;	
+}
+.knowledge_empty {
+	width: 1170px;
+	font-size: 16px;
+	text-align: justify;
+}
+}
+}
+}
+}
+
+
+.knowledge_line {
+	line-height: 30px;	
+	padding-top: 20px;
+	width: 1250px;
+
+	text-align: justify;
+.line_lines {
+	height: 150px;	
+padding-bottom: 0px;
+.line_lines:last-child {
+padding-bottom: 0px;
+}
+
+
+.knowledge_box {
+	display: flex;
+	padding: 20px 0px;	
+
+.knowledge_number {
+& svg { 
+    margin: 0 auto;
+
+}
+& circle {
+    fill: #33b89d;
+}
+#t1 {
+    font-size: 50px; 
+    fill: #ffffff;
+}
+
+
+.number_text {
+}
+}
+.knowledge_contain{
+	margin-left: 20px;
+}
+}
+
+}
+}
+}
+}
+
+// Файл нижнего блока
+@import "style_footer.scss";
+
+
+
+}
+
+}

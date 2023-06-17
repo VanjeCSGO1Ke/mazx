@@ -1,0 +1,40 @@
+.footer {
+  background: #b8b8b8;
+  height: 500px;
+}
+.footer .footer_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .footer_row .footer_map {
+  height: 500px;
+  width: 1000px;
+}
+.footer .footer_row .footer_contacts {
+  margin: 50px 0 50px 50px;
+}
+.footer .footer_row .footer_contacts .footer_name {
+  margin: 50px 0px;
+  font-size: 50px;
+}
+.footer .footer_row .footer_contacts .footer_number {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+.footer .footer_row .footer_contacts .footer_adrress {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.footer .footer_row .footer_contacts .footer_seti {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  width: 140px;
+}
+.footer .footer_row .footer_contacts .footer_seti .footer_circle img {
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+}

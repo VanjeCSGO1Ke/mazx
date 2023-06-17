@@ -1,0 +1,170 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	max-width: 1920px;
+	flex-direction: column;
+	overflow: hidden;
+
+.conteiner{
+	max-width: 1300px;
+	margin: 0px auto
+}
+
+// Файл верхнего блока
+@import "style_header.scss";
+
+
+
+.content {
+	flex: 1 1 auto;
+
+
+.avto{
+	margin: 150px 0 50px 0;
+.avto_login {
+  height: 450px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 60px;
+  background: url(https://picsum.photos/id/1004/5616/3744) no-repeat   center center #33b89d;   
+  background-size: cover;
+  box-shadow: 0px 5px 20px 1px #000;
+.active {
+	border-bottom: 3px solid #1161ed;
+  margin: 0 auto;
+
+  & p{
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  }
+}
+.avto_form{
+	margin-top: 30px;
+.form_forms{
+	margin: 15px auto;
+
+.avto_text{
+
+  font-size: 15px;
+  padding-top: 5px;
+  letter-spacing: 2px;
+}
+
+
+
+.text {
+	border: none;
+  width: 100%;
+  padding: 10px 20px;
+  display: block;
+  height: 15px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+  margin-top: 10px;
+  transition: all 0.5s ease-in-out;
+  &:focus {
+  outline: 0;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0);
+  }
+}
+}
+
+.avto_check{
+	display: flex;
+
+	& p{
+		padding-top: 2px;
+  }
+
+.custom-checkbox {
+  margin-right: 10px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+
+  
+
+  &:checked{
+  	 background-color: rgba(17, 97, 237, 1);
+  	   width: 20px;
+  height: 20px;
+  }
+
+  &:checked:after{
+  font-size: 20px;
+  color: #fff;
+  }
+
+
+
+}
+}
+.avto_but{
+		margin: 0 auto;
+.signin {
+	  background-color: #1161ed;
+  color: #FFF;
+  width: 100%;
+  padding: 10px 20px;
+  height: 39px;
+  border-radius: 20px;
+  margin-top: 30px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  text-transform: uppercase;
+	&:hover {
+  background: #4082f5;
+  box-shadow: 0px 4px 35px -5px #4082f5;
+  cursor: pointer;
+	}
+
+	&:focus {
+  outline: none;
+	}
+
+}
+}
+
+hr {
+  border: 1px solid #ffffff;
+  margin-top: 20px;
+
+}
+.avto_forgot{
+		text-align: center;
+		margin-top: 20px;
+.forgot a{
+
+}
+}
+
+}
+}
+}
+
+
+
+
+
+// Файл нижнего блока
+@import "style_footer.scss";
+
+
+
+}
+
+}

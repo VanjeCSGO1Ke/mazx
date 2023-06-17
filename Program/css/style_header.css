@@ -1,0 +1,72 @@
+.header {
+  position: fixed;
+  width: 1920px;
+  height: 100px;
+  padding: 10px 100px;
+  background: #ffffff;
+  border-bottom: 5px solid #616161;
+}
+.header .header_contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header_contain .header_image img {
+  width: 164px;
+  height: 80px;
+}
+.header .header_contain .header_name {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -5px 0 0px 20px;
+}
+.header .header_contain .header_name p {
+  width: 250px;
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+.header .header_contain .header_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  margin-left: 200px;
+  width: 300px;
+}
+.header .header_contain .header_menu a {
+  margin-right: 100px;
+  color: #33b89d;
+  font-size: 20px;
+}
+.header .header_contain .header_menu a p:hover {
+  color: #33b89d;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.header .header_contain .header_menu a:last-child {
+  margin-right: 0px;
+}
+.header .header_contain .header_seti {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  width: 140px;
+}
+.header .header_contain .header_seti img {
+  width: 30px;
+  height: 30px;
+  margin-right: 40px;
+}
+.header .header_contain .header_seti .header_seti img:last-child {
+  margin-right: 0;
+}

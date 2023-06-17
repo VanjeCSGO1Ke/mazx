@@ -1,0 +1,71 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+body{
+	font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	max-width: 1920px;
+	flex-direction: column;
+	overflow: hidden;
+
+.conteiner{
+	max-width: 1300px;
+	margin: 0px auto
+}
+
+// Файл верхнего блока
+@import "style_header.scss";
+
+
+
+.content {
+	flex: 1 1 auto;
+
+.title {
+	font-size: 40px;
+	color: #33b89d;
+	font-weight: 700;
+}
+
+.titl {
+	font-size: 30px;
+	color: #33b89d;
+
+}
+
+.tit {
+	font-size: 20px;
+	color: #000000;
+}
+
+
+
+
+.table_title{
+	text-align: center;
+	margin: 120px 0 30px 0;
+}
+
+@import "style_table.css";
+
+.exam {
+	margin: 0 auto;
+.exam_image img{
+	width: 1300px;
+	height: 800px;
+
+}
+}
+
+
+// Файл нижнего блока
+@import "style_footer.scss";
+
+
+
+}
+
+}
